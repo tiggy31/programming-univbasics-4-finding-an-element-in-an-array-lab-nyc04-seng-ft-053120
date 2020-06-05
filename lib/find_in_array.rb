@@ -5,7 +5,7 @@ def find_element_index(array, value_to_find)
   
   while count < array.length do
     if array[count] == value_to_find
-      found_value_index = count
+      return count
       #binding.pry
     end
     count += 1
