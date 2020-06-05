@@ -2,11 +2,12 @@
 
 def find_element_index(array, value_to_find)
  counter = 0 
+ no_found = nil
  while counter < array.length do
    if array[counter]== value_to_find
      value_to_find = count
 end
 counter +=1
 end
-nil
+no_found
 end
